@@ -1,0 +1,10 @@
+{
+  "validUser": {
+    "username": "bob@example.com",
+    "password": "10203040"
+  },
+  "lockedUser": {
+    "username": "alice@example.com",
+    "password": "10203040"
+  }
+}

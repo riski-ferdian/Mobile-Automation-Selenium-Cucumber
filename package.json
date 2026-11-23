@@ -1,0 +1,17 @@
+{
+  "name": "mobile-appium-selenium-cucumber",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "cucumber-js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "devDependencies": {
+    "@cucumber/cucumber": "^13.3.0",
+    "selenium-webdriver": "^4.51.0"
+  }
+}
