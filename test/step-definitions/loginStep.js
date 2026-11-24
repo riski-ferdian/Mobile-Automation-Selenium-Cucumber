@@ -1,11 +1,7 @@
 import { Given, When, Then } from "@cucumber/cucumber";
 import assert from "node:assert/strict";
-import fs from "node:fs";
 import LoginScreen from "../../src/screens/actions/LoginScreen.js";
-
-const userData = JSON.parse(
-  fs.readFileSync("./src/data/userData.json", "utf-8"),
-);
+import userData from "../../src/data/userData.json" with { type: "json" };
 
 Given("user navigates to the mobile login screen", async function () {
   this.loginScreen = new LoginScreen(this.driver);
